@@ -28,11 +28,10 @@ h3 {
     padding-top: 30%;
 }
 
-#centNavButtons {
-    position: relative;
-    left: 38%;
-}
-
 .navbar {
     background: #d1c9ff;
+}
+
+#centNavButtons {
+    margin-left: 28.5%;
 }
