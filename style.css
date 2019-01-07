@@ -81,12 +81,19 @@ html {
 
 #hosts-designers {
     margin-top: 50px;
-    background-color: #b800ff;
 }
 
 #searching-enterprise {
 }
 
 #searching-enterprise > h2 {
-    background-color: #ffe200;
+    background-color: #fff984;
+}
+
+#hosts-designers > h2 {
+    background-color: #f871ff;
+}
+
+#whyMain {
+    margin-top: 100px;
 }
