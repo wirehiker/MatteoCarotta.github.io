@@ -1,1 +1,3 @@
 _pgbackup/
+/node_modules
+/.idea
