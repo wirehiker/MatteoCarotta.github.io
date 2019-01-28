@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import properties from './Dashboard4.1--Properties.png';
-import survey from './Dashboard4.1--Survey.png';
+import properties from './img/Dashboard4.1--Properties.png';
+import survey from './img/Dashboard4.1--Survey.png';
 
 class App extends Component {
   render() {
