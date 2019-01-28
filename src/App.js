@@ -1,25 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import properties from './Dashboard4.1--Properties.png';
+import survey from './Dashboard4.1--Survey.png';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+          <img src={survey} style={{width: "100%"}}/>
+          <img src={properties} style={{width: "100%"}}  />
       </div>
     );
   }
