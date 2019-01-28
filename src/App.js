@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import properties from './img/Dashboard4.1--Properties.png';
-import survey from './img/Dashboard4.1--Survey.png';
+import Properties from "./Properties";
+import Survey from "./Survey";
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div>
-          <img src={survey} style={{width: "100%"}}/>
-          <img src={properties} style={{width: "100%"}}  />
-      </div>
+        <Router>
+            <div>
+                <Route exact path="/" component={Properties}/>
+                <Route exact path="/properties" component={Properties}/>
+                <Route exact path="/survey" component={Survey}/>
+            </div>
+        </Router>
     );
   }
 }
